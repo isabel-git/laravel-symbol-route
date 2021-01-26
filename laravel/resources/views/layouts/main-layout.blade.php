@@ -18,9 +18,9 @@
 - about
 La struttura generale (header, footer, ecc) resta invariata per ogni pagina, cambia solo il contenuto che riportera' il solo titolo della pagina.--}}
     
-    <header>
-        HEADER
-    </header>
+    
+    @include('components.header')
+    
 
     <div class="content">
 
@@ -28,8 +28,7 @@ La struttura generale (header, footer, ecc) resta invariata per ogni pagina, cam
 
     </div>
 
-    <footer>
-        FOOTER
-    </footer>
+    @include('components.footer')
+
 </body>
 </html>
