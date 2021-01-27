@@ -7,9 +7,9 @@
     <title>Document</title>
 
     <!-- SASS -->
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <!-- JS -->
-    <script src="js/app.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
     {{-- - pagamenti: in cui verranno listati tutti i pagamenti stampati con due colori diversi un colore per riga (come visto a lezione verde/rosso)

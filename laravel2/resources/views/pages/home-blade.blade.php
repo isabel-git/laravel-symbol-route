@@ -15,10 +15,12 @@
                 @php
                     $cl = "green"; 
                 @endphp
-
             @endif
 
-            <li class="{{ $cl }}">{{ $pagamento['price'] }} {{ $pagamento['status'] }}</li>
+
+            <li class="{{ $cl }}"> Il prezzo è di <strong>{{ $pagamento['price'] }}$</strong> e lo status risulta <strong>{{ $pagamento['status'] }}</strong></li>
+            
+
         @endforeach
 
     </ul>

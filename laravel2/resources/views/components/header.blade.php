@@ -1,3 +1,3 @@
 <header>
-    <h1>Tutti i Pagamenti</h1>
+    <h1>Pagamenti</h1>
 </header>
